@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ------css------ -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ----------Box Icon----------- -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>halaman login</title>
+
+</head>
+<body>
+    <div class="login">
+        <div class="login_content">
+            <div class="login_img">
+                <img src="img/img-login.svg" alt="">
+            </div>
+
+            <div class="login_forms">
+                <form action="" class="login_register" id="login-in">
+                 <h1 class="login_title">Masuk</h1>
+
+                 <div class="login_box">
+                     <i class="bx bx-user login_icon"></i>
+                     <input type="text" placeholder="Username" class="login_input">
+                 </div>
+                 <div class="login_box">
+                     <i class="bx bx-lock login_icon"></i>
+                     <input type="password" placeholder="password" class="login_input">
+                 </div>
+
+                 <a href="#" class="login_forgot">Lupa password</a>
+
+                 <a href="#" class="login_button">Masuk</a>
+
+                 <div>
+                     <span class="login_account">Tidak Memiliki Akun?</span>
+                     <span class="login_signin" id="sign-up">Daftar</span>
+                 </div>
+                </form>
+
+                <form action="" class="login_create none" id="login-up">
+                    <h1 class="login_title">Buat Akun</h1>
+   
+                    <div class="login_box">
+                        <i class="bx bx-user login_icon"></i>
+                        <input type="text" placeholder="Username" class="login_input">
+                    </div>
+
+                    <div class="login_box">
+                        <i class="bx bx-at login_icon"></i>
+                        <input type="text" placeholder="Email" class="login_input">
+                    </div>
+
+                    <div class="login_box">
+                        <i class="bx bx-lock login_icon"></i>
+                        <input type="password" placeholder="password" class="login_input">
+                    </div>
+   
+                    <a href="#" class="login_button">Daftar</a>
+   
+                    <div>
+                        <span class="login_account">Sudah Memiliki Akun?</span>
+                        <span class="login_signup" id="sign-in">Masuk</span>
+                    </div>
+
+                    <div class="login_social-icon">
+                        <a href="#" class="login_social-icon"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="login_social-icon"><i class="bx bxl-twitter"></i></a>
+                        <a href="#" class="login_social-icon"><i class="bx bxl-google"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
